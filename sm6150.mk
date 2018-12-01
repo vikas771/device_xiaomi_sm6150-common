@@ -334,6 +334,12 @@ PRODUCT_PACKAGES += \
     ueventd.qcom.rc \
     init.safailnet.rc
 
+# RCS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling \
+    RcsService
+
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_xiaomi
