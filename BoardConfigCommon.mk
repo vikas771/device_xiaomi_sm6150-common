@@ -8,6 +8,9 @@ BOARD_VENDOR := xiaomi
 
 COMMON_PATH := device/xiaomi/sm6150-common
 
+# Build
+BUILD_BROKEN_PREBUILT_ELF_FILES := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
