@@ -215,13 +215,16 @@ product/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe
 product/lib64/libdiag_system.so|4579d722de2e071ef640dd7c572aa08773d5533a
 product/lib64/libdpmctmgr.so|30edca46d4d0f6ecdb86169bf9839375a77c6d27
 product/lib64/libdpmfdmgr.so|8c852ffa26dac26fd87eab57f4c2f46fff5163fa
-product/lib64/libdpmframework.so|6910afd51f65420e454a1eb555df6f1de9b6f370
+product/lib64/libdpmframework.so|4aba3b6b9a7a8db940a96b733c5f764bc9946304
 product/lib64/libdpmtcm.so|cd964bbad1930a8ccd5a878b5a2d8f414a6a75a8
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk|9fd873c5330c03c62dfdeb6540b5984588295319
 vendor/bin/dpmQmiMgr|ef031f1c58cd332c4e35a6be03393fee7bdb5181
 vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ab5d46cbf14ce90ab44aaab4dc1520378c568033
 vendor/lib64/libdpmqmihal.so|d5b8330b56d7e0c036b00a817754748bf3137774
+
+# DPM - older libcutils for load by libdpmframework
+product/lib64/libcutils-v29.so
 
 # DRM - from LA.UM.8.9.r1-07100-SM6xx.0
 vendor/bin/qseecomd|70b84d6f6a5c59826ad75c80648a1a25eff1cbc1
@@ -365,8 +368,8 @@ vendor/lib64/libsdedrm.so|022e763eac905e531112f39171530f836a85be77
 vendor/lib/libsdedrm.so|18568c442b560f5999f9da0227f642af500f4233
 
 # Graphics (HDR) - from LA.UM.8.9.r1-08400-SM6xx.0
-vendor/lib64/libhdr_tm.so|a04a0abf52d940ddb4916e74d48cc2b16526e355
-vendor/lib/libhdr_tm.so|e8742dd5c205c8beed3f32b1c318980517a7ae88
+vendor/lib64/libhdr_tm.so|4f08d65045893e0ec2b351581d6378f2e187ca82
+vendor/lib/libhdr_tm.so|43329dcdd1f390b12fbab1094ea8af46548aeb36
 
 # Graphics (Renderscript) - from LA.UM.8.9.r1-08400-SM6xx.0
 vendor/lib64/libRSDriver_adreno.so|76246cf21e9abfdf87e27e825cfe20047be30a16

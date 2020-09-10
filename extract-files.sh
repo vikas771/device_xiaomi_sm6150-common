@@ -69,6 +69,9 @@ function blob_fixup() {
         sed -i "s|0x10080|0|g" "${2}"
         sed -i "s|0x1F|0x0|g" "${2}"
     ;;
+    product/lib64/libdpmframework.so)
+        patchelf --replace-needed libcutils.so libcutils-v29.so "$2"
+        ;;
     esac
 }
 
